@@ -5,13 +5,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Documento de Prueba</title>
+  <script type="text/javascript" src="saludo.js"></script>
+
+  </script>
 </head>
 <body>
 
-  <h1>Página de Prueba</h1>
+  <h1>Página de Pruebas</h1>
   <ul>
     <li>Autor: Elier Nieto Rivas</li>
     <li>Correo: eliernieto@gmail.com</li>
   </ul>
+  <h1>Sumar 2 Números enteros:</h1>
+  <form action="">
+    <input type="text" name="n1" id="n1"> <br>
+    <input type="text" name="n2" id="n2"> <br> 
+    <!--<input type="hidden" name="" id="resultado"> <br> -->
+    <output name="resultado" id="resultado"></output> <br><br>
+    <input type="button" value="Sumar" id="suma" onclick="muestraSuma()" />
+    <input type="button" value="Limpiar" onclick="limpiar()" />
+  </form>
+
 </body>
 </html>
