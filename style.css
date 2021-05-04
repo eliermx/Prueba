@@ -1,0 +1,27 @@
+body{
+      font-family: 'Roboto', sans-serif;
+      background-color: #f4eee8; //https://colorhunt.co/palette/273496
+}
+p {
+  color: #1b1717;
+}
+p.piso {
+  color: #bdc7c9;
+}
+h1{
+  color: #04009a;
+}
+
+h2{
+  color: #344fa1;
+}
+h3{
+  padding-top: 0.5em;
+  color: #ffffff;
+}
+
+footer{
+  background-color: #2b2e4a;
+  margin-top: 1em;
+
+}
